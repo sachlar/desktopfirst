@@ -1,0 +1,23 @@
+.column {
+    float: left;
+    width: 30%;
+    height: 50px;
+    background-color: #e84610; /* red */
+    margin: 10px;
+}
+
+/* media-queries */
+@media (max-width: 991px)  {
+    .column {
+        background-color: #0997d3; /* blue */
+    }
+}
+
+@media (max-width: 767px)  {
+    .column {
+        background-color: #000; /* black */
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
